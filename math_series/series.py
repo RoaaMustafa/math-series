@@ -18,7 +18,9 @@ def fibonacci_series(number):
 
 print(fibonacci_series(7))   
    
-
+"""
+start with the values 2 and 1 rather than 0 and 1
+"""
 def lucas_series(number):
       if number==0:
         return 2
