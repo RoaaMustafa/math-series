@@ -18,7 +18,9 @@ def fibonacci_series(number):
 
 print(fibonacci_series(7))   
    
-
+"""
+start with the values 2 and 1 rather than 0 and 1
+"""
 def lucas_series(number):
       if number==0:
         return 2
@@ -33,7 +35,9 @@ def lucas_series(number):
 print(lucas_series(7)) 
 
 
-
+"""
+  The required parameter will determine which element in the series to print. The two optional parameters will have default values of 0 and 1 and will determine the first two values for the series to be produced
+"""
 def sum_series(n,optional1=0,optional2=1):
     if optional1==0 and optional2==1:
         return fibonacci_series(n)
